@@ -14,7 +14,7 @@ export const RideHighlights = () => {
     },
     {
       id: 2,
-      title: "Riverside Scenic Route",
+      title: "Getting ready",
       description: "Enjoy a peaceful ride along crystal-clear rivers surrounded by lush forests. Perfect for those who love nature and want to experience the serenity of flowing water and wildlife.",
       image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       duration: "2 days",
@@ -23,12 +23,21 @@ export const RideHighlights = () => {
     },
     {
       id: 3,
-      title: "Forest Trail Adventure",
+      title: "The big day",
+      description: "Navigate through ancient forest trails with towering trees and dappled sunlight. This magical route offers a perfect blend of adventure and tranquility in nature's cathedral.",
+      image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      duration: "4 days",
+      difficulty: "Hard",
+      distance: "250 km"
+    }
+    {
+      id: 4,
+      title: "Cooling down",
       description: "Navigate through ancient forest trails with towering trees and dappled sunlight. This magical route offers a perfect blend of adventure and tranquility in nature's cathedral.",
       image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       duration: "4 days",
       difficulty: "Medium",
-      distance: "220 km"
+      distance: "50 km"
     }
   ];
 
