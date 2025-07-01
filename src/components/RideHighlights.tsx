@@ -5,12 +5,12 @@ export const RideHighlights = () => {
   const highlights = [
     {
       id: 1,
-      title: "Mountain Pass Challenge",
+      title: "Warming up",
       description: "Conquer the legendary mountain passes with breathtaking views and thrilling descents. This challenging route will test your endurance while rewarding you with spectacular alpine scenery.",
       image: "https://images.unsplash.com/photo-1426604966848-d7adac402bff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      duration: "3 days",
+      duration: "~3 hours",
       difficulty: "Hard",
-      distance: "180 km"
+      distance: "50 km"
     },
     {
       id: 2,
