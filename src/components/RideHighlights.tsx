@@ -1,5 +1,6 @@
 
 import { MapPin, Clock, Mountain } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const RideHighlights = () => {
   const highlights = [
@@ -29,7 +30,7 @@ export const RideHighlights = () => {
       duration: "4 days",
       difficulty: "Hard",
       distance: "250 km"
-    }
+    },
     {
       id: 4,
       title: "Cooling down",
@@ -64,9 +65,10 @@ export const RideHighlights = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {highlights.map((highlight) => (
-            <div
+            <Link
               key={highlight.id}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-105 group"
+              to={`/daytrip/${highlight.id}`}
+              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-105 group block"
             >
               {/* Image */}
               <div className="relative h-64 overflow-hidden">
@@ -107,7 +109,7 @@ export const RideHighlights = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
