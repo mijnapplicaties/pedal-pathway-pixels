@@ -18,7 +18,7 @@ export const RideHighlights = () => {
       title: "Getting ready",
       description: "Enjoy a peaceful ride along crystal-clear rivers surrounded by lush forests. Perfect for those who love nature and want to experience the serenity of flowing water and wildlife.",
       image: "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      duration: "2 days",
+      duration: "~4 uur",
       difficulty: "Easy",
       distance: "95 km"
     },
@@ -27,7 +27,7 @@ export const RideHighlights = () => {
       title: "The big day",
       description: "Navigate through ancient forest trails with towering trees and dappled sunlight. This magical route offers a perfect blend of adventure and tranquility in nature's cathedral.",
       image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      duration: "4 days",
+      duration: "~12 uur",
       difficulty: "Hard",
       distance: "250 km"
     },
@@ -36,7 +36,7 @@ export const RideHighlights = () => {
       title: "Cooling down",
       description: "Navigate through ancient forest trails with towering trees and dappled sunlight. This magical route offers a perfect blend of adventure and tranquility in nature's cathedral.",
       image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      duration: "4 days",
+      duration: "~3 uur",
       difficulty: "Medium",
       distance: "50 km"
     }
