@@ -25,7 +25,10 @@ export const Hero = () => {
           Join us on an unforgettable journey through breathtaking landscapes, challenging trails, and incredible destinations.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in [animation-delay:1.4s] opacity-0 [animation-fill-mode:forwards]">
-          <button className="group relative overflow-hidden bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25 transform-gpu">
+          <button 
+            onClick={() => document.getElementById('highlights')?.scrollIntoView({ behavior: 'smooth' })}
+            className="group relative overflow-hidden bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25 transform-gpu"
+          >
             <span className="relative z-10">Discover Our Route</span>
             <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-green-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </button>
