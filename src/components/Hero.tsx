@@ -17,19 +17,21 @@ export const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in [animation-delay:0.2s] opacity-0 [animation-fill-mode:forwards]">
           Epic Bicycle
-          <span className="block text-green-400">Adventure</span>
+          <span className="block text-green-400 animate-fade-in [animation-delay:0.6s] opacity-0 [animation-fill-mode:forwards]">Adventure</span>
         </h1>
-        <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto animate-fade-in opacity-90">
+        <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto animate-fade-in [animation-delay:1s] opacity-0 [animation-fill-mode:forwards]">
           Join us on an unforgettable journey through breathtaking landscapes, challenging trails, and incredible destinations.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
-          <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-all duration-200 hover:scale-105 hover:shadow-lg">
-            Discover Our Route
+        <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in [animation-delay:1.4s] opacity-0 [animation-fill-mode:forwards]">
+          <button className="group relative overflow-hidden bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25 transform-gpu">
+            <span className="relative z-10">Discover Our Route</span>
+            <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-green-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </button>
-          <button className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 rounded-lg text-lg font-semibold transition-all duration-200 hover:scale-105">
-            View Gallery
+          <button className="group relative overflow-hidden bg-transparent border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 rounded-lg text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-white/25 transform-gpu">
+            <span className="relative z-10 group-hover:text-gray-900 transition-colors duration-300">View Gallery</span>
+            <div className="absolute inset-0 bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
           </button>
         </div>
       </div>
