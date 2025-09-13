@@ -1,5 +1,6 @@
 
 import { useParams, Link } from "react-router-dom";
+import { useEffect } from "react";
 import { Navigation } from "@/components/Navigation";
 import { ArrowLeft, Clock, MapPin, Mountain, Users, Camera, Route } from "lucide-react";
 
@@ -107,6 +108,11 @@ const DaytripPage = () => {
   ];
 
   const daytrip = daytrips.find(trip => trip.id === daytripId) || daytrips[0];
+
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const getDifficultyColor = (difficulty: string) => {
     switch (difficulty) {
