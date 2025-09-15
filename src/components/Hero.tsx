@@ -18,11 +18,11 @@ export const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in [animation-delay:0.2s] opacity-0 [animation-fill-mode:forwards]">
-          Epic Bicycle
-          <span className="block text-green-400 animate-fade-in [animation-delay:0.6s] opacity-0 [animation-fill-mode:forwards]">Adventure</span>
+          Houffalize
+          <span className="block text-green-400 animate-fade-in [animation-delay:0.6s] opacity-0 [animation-fill-mode:forwards]">2025</span>
         </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto animate-fade-in [animation-delay:1s] opacity-0 [animation-fill-mode:forwards]">
-          Join us on an unforgettable journey through breathtaking landscapes, challenging trails, and incredible destinations.
+          Ardennen op zijn best, met kuitenbijters als Stockeu, Cote de Wanne en La Redoute
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in [animation-delay:1.4s] opacity-0 [animation-fill-mode:forwards]">
           <button 
